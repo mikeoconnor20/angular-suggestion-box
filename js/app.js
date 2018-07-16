@@ -4,6 +4,9 @@ app.config(function($routeProvider) {
 	$routeProvider.when('/', {
 		controller: 'HomeController',
 		templateUrl: 'views/home.html'
+	}).when('/suggestion/:id',{
+		controller: 'suggestionsController',
+		templateUrl: 'views/suggestions.html'
 	}).otherwise({
 		redirectTo: '/'
 	})
