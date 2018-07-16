@@ -1,5 +1,5 @@
 app.factory('suggestions', [function() {
-	var demoSuggestions = {
+	var DemoSuggestions = {
 		posts: [
 		  {
 			title: 'Free pizza at club meetings',
